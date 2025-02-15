@@ -2,7 +2,7 @@
 int main(){
     int a,b;
     char op;
-    scanf("%d %d %c",&a,&b,&op);
+    scanf("%d %d  %c",&a,&b,&op);
     if(op=="+"){
         int aresult=a+b;
         printf("%d",aresult);
@@ -16,7 +16,7 @@ int main(){
         printf("%d",mresult);
     }
     else if(op=="/"){
-        int sresult=a/b;
+        int dresult=a/b;
         printf("%d",dresult);
     }
     return 0;
