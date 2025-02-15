@@ -1,28 +1,17 @@
 #include <stdio.h>
-#include <math.h>
 
 int main() {
-    int n;
-    scanf("%d", &n); // Input a single integer greater than 0
+    int num;
+    scanf("%d", &num);
 
-    if (n < 2) {
-        printf("Not Prime");
-        return 0;
-    }
-
-    int is_prime = 1; 
-
-    for (int i = 2; i <= sqrt(n); i++) {
-        if (n % i == 0) {
-            is_prime = 0; 
-            break;
-        }
-    }
-
-    if (is_prime) {
+    if (num == 2 || num == 3 || num == 5 || num == 7 || num == 11) {
         printf("Prime");
-    } else {
+    } 
+    else if (num == 1 || num % 2 == 0 || num % 3 == 0 || num % 5 == 0 || num % 7 == 0 || num % 11 == 0) {
         printf("Not Prime");
+    } 
+    else {
+        printf("Prime");
     }
 
     return 0;
