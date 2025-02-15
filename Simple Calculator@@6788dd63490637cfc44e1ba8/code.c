@@ -15,9 +15,12 @@ int main(){
         int mresult=a*b;
         printf("%d",mresult);
     }
-    else if(op=='/'){
-        int dresult=a/b;
-        printf("%d",dresult);
+    else if (op == '/') {
+    if (b == 0) {
+        printf("Error: Division by zero\n");
+    } else {
+        printf("%d\n", a / b);
     }
+}
     return 0;
 }
