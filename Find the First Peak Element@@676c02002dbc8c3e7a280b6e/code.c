@@ -19,6 +19,9 @@ int main(){
             printf("%d",arr[i]);
             return 0;
         }
+        else if{
+            printf("%d",-1);
+        }
     }
     return 0;
 }
