@@ -13,7 +13,7 @@ int main(){
             }
             return 0;
             if(arr[n]>arr[n-1]){
-                printf("%d".arr[n]);
+                printf("%d",arr[n]);
             }
         }
         else if((arr[i]>arr[i-1])&&(arr[i]>arr[i+1])){
