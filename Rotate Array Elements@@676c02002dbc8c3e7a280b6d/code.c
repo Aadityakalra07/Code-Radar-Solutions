@@ -8,12 +8,8 @@ int main(){
     }
     int k;
     scanf("%d",&k);
-    for(int j=0; j<k; j++){
     for(int i=0; i<n; i++){
-        arr[i+1]=arr[i];
-        i++;
-    }
-    j++;
+        arr[i+k]=arr[i];
     }
     for(int i=0; i<n; i++){
         printf("%d",arr[i]);
