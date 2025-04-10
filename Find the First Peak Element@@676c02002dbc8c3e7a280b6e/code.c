@@ -19,7 +19,7 @@ int main(){
             printf("%d",arr[i]);
             return 0;
         }
-        else if{
+        else{
             printf("%d",-1);
         }
     }
