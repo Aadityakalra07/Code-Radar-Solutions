@@ -21,6 +21,7 @@ int main(){
         }
         else{
             printf("%d",-1);
+            break;
         }
     }
     return 0;
