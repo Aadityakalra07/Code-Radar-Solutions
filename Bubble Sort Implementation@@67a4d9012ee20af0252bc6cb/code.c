@@ -1,4 +1,4 @@
-void bubbleSort(arr,n){
+int bubbleSort(arr,n){
     for(i=0; i<n; i++){
         if(arr[0]>arr[i]){
             int temp=arr[0];
@@ -7,6 +7,7 @@ void bubbleSort(arr,n){
         }
         i++;
     }
+    return arr;
 }
 void printArray(arr,n){
     for(i=0; i<n; i++){
